@@ -36,20 +36,20 @@ function Header() {
           }`}
         >
           <ul className="flex flex-col items-center space-y-2 bg-[#c2093b] p-4 rounded shadow-md">
-            <li><a href="/" className="whiteHeaderHover">HOME</a></li>
-            <li><a href="/menu" className="whiteHeaderHover">OUR MENU</a></li>
-            <li><a href="/contact" className="whiteHeaderHover">CONTACT US</a></li>
-            <li className='-mb-3'><a href="/application" className="whiteHeaderHover">APPLICATION</a></li>
+            <li><Link to="/" className="whiteHeaderHover">HOME</Link></li>
+            <li><Link to="/menu" className="whiteHeaderHover">OUR MENU</Link></li>
+            <li><Link to="/contact" className="whiteHeaderHover">CONTACT US</Link></li>
+            <li className='-mb-3'><Link to="/application" className="whiteHeaderHover">APPLICATION</Link></li>
           </ul>
         </div>
       </div>
 
       <nav className="mt-4 font-[550] hidden md:block">
         <ul className="flex justify-center space-x-4">
-          <li><a href="/" className="whiteHeaderHover">HOME</a></li>
-          <li><a href="/menu" className="whiteHeaderHover">OUR MENU</a></li>
-          <li><a href="/contact" className="whiteHeaderHover">CONTACT US</a></li>
-          <li><a href="/application" className="whiteHeaderHover">APPLICATION</a></li>
+          <li><Link to="/" className="whiteHeaderHover">HOME</Link></li>
+          <li><Link to="/menu" className="whiteHeaderHover">OUR MENU</Link></li>
+          <li><Link to="/contact" className="whiteHeaderHover">CONTACT US</Link></li>
+          <li><Link to="/application" className="whiteHeaderHover">APPLICATION</Link></li>
         </ul>
       </nav>
     </header>
