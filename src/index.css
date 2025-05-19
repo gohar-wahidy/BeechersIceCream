@@ -3,7 +3,7 @@
     @apply
     text-[#c2093b]
     transition-colors
-    duration-500
+    duration-800
     ease-in-out
     rounded;
 }
@@ -22,7 +22,7 @@
     @apply
     text-white
     transition-colors
-    duration-500
+    duration-800
     py-[5px] px-[10px]
     ease-in-out
     rounded;
