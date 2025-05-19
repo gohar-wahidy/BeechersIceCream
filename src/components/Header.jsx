@@ -17,7 +17,7 @@ function Header() {
       <div className="mt-3 md:hidden text-center">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="cursor-pointer border border-white rounded whiteHeaderHover transition duration-300"
+          className="cursor-pointer border border-white rounded whiteHeaderHover transition duration-500"
         >
           <span>
             <img
@@ -31,7 +31,7 @@ function Header() {
         </button>
 
         <div
-          className={`transition-all overflow-hidden duration-300 ease-in-out ${
+          className={`transition-all overflow-hidden duration-500 ease-in-out ${
             isOpen ? 'max-h-60' : 'max-h-0'
           }`}
         >
