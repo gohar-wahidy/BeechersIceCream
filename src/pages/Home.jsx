@@ -68,35 +68,30 @@ function Home() {
           <div>
             <img
               src={BeechersImage1}
-              alt="Beecher's Ice Cream Store 1"
               className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
           <div>
             <img
               src={BeechersImage3}
-              alt="Beecher's Ice Cream Inside"
               className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
           <div>
             <img
               src={BeechersImage4}
-              alt="Beecher's Ice Cream Awards"
               className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
           <div>
             <img
               src={BeechersImage2}
-              alt="Beecher's Ice Cream Store 2"
               className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
           <div>
             <img
               src={BeechersLogo}
-              alt="Beecher's Ice Cream Logo"
               className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>

@@ -59,35 +59,31 @@ function Menu() {
                 <div>
                   <img
                     src={FlavorsList2}
-                    alt="Flavors"
                     className="w-full h-auto rounded-lg shadow-lg"
                   />
                 </div>
                 <div>
                   <img
                     src={FlavorsList3}
-                    alt="Flavors2"
                     className="w-full h-auto rounded-lg shadow-lg"
                   />
                 </div>
                 <div>
                   <img
                     src={Kitchen}
-                    alt="Kitchen"
                     className="w-full h-auto rounded-lg shadow-lg"
                   />
                 </div>
                 <div>
                   <img
                     src={Kitchen2}
-                    alt="Kitchen2"
                     className="w-full h-auto rounded-lg shadow-lg"
                   />
                 </div>
               </Carousel>
             </div>
             <div className="w-3/8 ml-4 mt-4">
-              <img src={FlavorsList} alt="Flavors List" className="h-auto max-h-100 w-full object-contain rounded-lg shadow-lg" />
+              <img src={FlavorsList} className="h-auto max-h-100 w-full object-contain rounded-lg shadow-lg" />
             </div>
           </div>
         </div>
