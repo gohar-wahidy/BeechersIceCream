@@ -12,11 +12,6 @@
     text-white
     bg-[#c2093b];
 }
-.redHover:active {
-    @apply
-    text-white
-    bg-[#c2093b];
-}
 
 .whiteHeaderHover {
     @apply
@@ -28,11 +23,6 @@
     rounded;
 }
 .whiteHeaderHover:hover {
-    @apply
-    text-[#c2093b]
-    bg-white;
-}
-.whiteHeaderHover:active {
     @apply
     text-[#c2093b]
     bg-white;
