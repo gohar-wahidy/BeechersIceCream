@@ -1,29 +1,41 @@
 @import "tailwindcss";
 .redHover {
-    @apply 
+    @apply
     text-[#c2093b]
-    hover:text-white 
-    hover:bg-[#c2093b]
-    active:text-white 
-    active:bg-[#c2093b]
     transition-colors
-    duration-700
+    duration-500
     ease-in-out
     rounded;
 }
+.redHover:hover {
+    @apply
+    text-white
+    bg-[#c2093b];
+}
+.redHover:active {
+    @apply
+    text-white
+    bg-[#c2093b];
+}
 
 .whiteHeaderHover {
-    @apply 
+    @apply
     text-white
-    hover:text-[#c2093b]
-    hover:bg-white
-    active:text-[#c2093b]
-    active:bg-white
     transition-colors
-    duration-700
+    duration-500
     py-[5px] px-[10px]
     ease-in-out
     rounded;
+}
+.whiteHeaderHover:hover {
+    @apply
+    text-[#c2093b]
+    bg-white;
+}
+.whiteHeaderHover:active {
+    @apply
+    text-[#c2093b]
+    bg-white;
 }
   
 .openStyle {
