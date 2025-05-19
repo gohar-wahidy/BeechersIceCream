@@ -36,6 +36,7 @@ function Home() {
           infiniteLoop
           useKeyboardArrows
           autoPlay={false}
+          swipeable={false}
           emulateTouch
           dynamicHeight
           renderArrowPrev={(onClickHandler, hasPrev, label) =>

@@ -27,6 +27,7 @@ function Menu() {
                 infiniteLoop
                 useKeyboardArrows
                 autoPlay={false}
+                swipeable={false}
                 emulateTouch
                 dynamicHeight
                 renderArrowPrev={(onClickHandler, hasPrev, label) =>
@@ -86,7 +87,7 @@ function Menu() {
               </Carousel>
             </div>
             <div className="w-3/8 ml-4 mt-4">
-              <img src={FlavorsList} alt="Flavors List" className="h-full rounded-lg shadow-lg" />
+              <img src={FlavorsList} alt="Flavors List" className="h-auto max-h-100 w-full object-contain rounded-lg shadow-lg" />
             </div>
           </div>
         </div>
