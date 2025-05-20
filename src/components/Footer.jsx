@@ -8,7 +8,7 @@ function Footer() {
     <footer className="bg-[#c2093b] text-white p-4 flex justify-between items-center">
       <div className="flex items-center gap-2 text-lg font-black custom-font">
         <img src={BeechersLogo} width="40" alt="Beecher's Logo" />
-        <span className="hidden md:inline">BEECHER'S ICE CREAM</span>
+        <span className="hidden md:inline">© BEECHER'S ICE CREAM</span>
       </div>
       <div className="flex space-x-4">
         <a href="https://www.facebook.com/beecherice/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
